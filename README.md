@@ -1,6 +1,6 @@
 # Machine Learning Applied to the Optimization of Plastic-Degrading Enzymes
 
-## Mestrado em Bioinformática – Universidade do Minho  
+## Mestrado em Bioinformática – Universidade do Minho (2024/2025)
 Projeto em Bioinformática realizado no CBMA – Centro de Biologia Molecular e Ambiental
 
 ### 👤 Autor
