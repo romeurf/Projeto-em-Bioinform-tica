@@ -9,7 +9,7 @@ parser = MMCIFParser(QUIET=True)
 io = PDBIO()
 
 def is_model_cif(filename):
-    return filename.endswith(".cif") and "summary" not in filename.lower()
+    return filename.endswith("model_0.cif")
 
 for root, dirs, files in os.walk(main_folder):
     for file in files:
