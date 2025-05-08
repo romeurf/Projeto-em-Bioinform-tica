@@ -1,0 +1,18 @@
+[{
+ "name": "PZ0408_AF-A0A145Z9W5-F1_MGTLLVVGDS_A0A145Z9W5",
+ "modelSeeds": [
+  "951389717"
+ ],
+ "sequences": [
+  {
+   "proteinChain": {
+    "sequence": "MGTLLVVGDSISAAFGLDSRQGWVALLEKRLSEEGFEHSVVNASISGDTSAGGAARLSALLAEHKPELVIIELGGNDGLRGQPPAQLQQNLASMVEQSQQAGAKVLLLGMKLPPNYGVRYTTAFAQVFTDLAEQKQVSLVPFFLEGVGGVPGMMQADGIHPAEAAQEILLDNVWPTLKPML",
+    "count": 1,
+    "useStructureTemplate": true
+   }
+  }
+ ],
+ "dialect": "alphafoldserver",
+ "version": 1
+}
+]
