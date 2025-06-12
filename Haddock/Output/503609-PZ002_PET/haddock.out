@@ -1,0 +1,175 @@
+[2025-06-12 06:13:23] 
+##############################################################################
+#                                                                            #
+# Starting HADDOCK2.5                                                        #
+#                                                                            #
+#         N-components version of HADDOCK (current maximum is 20)            #
+#                                                                            #
+#   Copyright 2003-2024 Alexandre Bonvin, Utrecht University.                #
+#   Originally adapted from Aria 1.2 from Nilges and Linge, EMBL.            #
+#   All rights reserved.                                                     #
+#   This code is part of the HADDOCK software and governed by its            #
+#   license. Please see the LICENSE file that should have been included      #
+#   as part of this package.                                                 #
+#                                                                            #
+##############################################################################
+    
+[2025-06-12 06:13:23] Starting HADDOCK
+[2025-06-12 06:13:23] HADDOCK version: 2.5 - December 2024
+[2025-06-12 06:13:23] Parsing run.cns file
+[2025-06-12 06:13:23] Parsing run.param in /trinity/rascar/enmr/csb_webserver/data/runs/haddock24/userrun00503609/run1/data
+[2025-06-12 06:13:23] Reading parameters from the file /trinity/rascar/enmr/csb_webserver/data/runs/haddock24/userrun00503609/run1/data/run.param
+[2025-06-12 06:13:23]   setting some variables:
+[2025-06-12 06:13:23]     HADDOCK_DIR set to: /trinity/rascar/enmr/software/haddock2.5
+[2025-06-12 06:13:23]     N_COMP set to: 2
+[2025-06-12 06:13:23]     PDB_FILE1 set to: protein1.pdb
+[2025-06-12 06:13:23]     PROT_SEGID_1 set to: A
+[2025-06-12 06:13:23]     PDB_FILE2 set to: protein2.pdb
+[2025-06-12 06:13:23]     PROT_SEGID_2 set to: B
+[2025-06-12 06:13:23]     PROJECT_DIR set to: .
+[2025-06-12 06:13:23]     RUN_NUMBER set to: 1
+[2025-06-12 06:13:23]   HADDOCK_DIR /trinity/rascar/enmr/software/haddock2.5
+[2025-06-12 06:13:23]   N_COMP 2
+[2025-06-12 06:13:23]   PDB_FILE1 protein1.pdb
+[2025-06-12 06:13:23]   PROT_SEGID_1 A
+[2025-06-12 06:13:23]   PDB_FILE2 protein2.pdb
+[2025-06-12 06:13:23]   PROT_SEGID_2 B
+[2025-06-12 06:13:23]   PROJECT_DIR .
+[2025-06-12 06:13:23]   RUN_NUMBER 1
+[2025-06-12 06:13:23] Looking for existing files
+[2025-06-12 06:13:23] waterdock false
+[2025-06-12 06:13:23] Generating PSF and PDB file of molecule 1
+[2025-06-12 06:13:23] Generating PSF and PDB file of molecule 2
+[2025-06-12 06:13:23]   waiting for the psf files...
+[2025-06-12 06:13:23]   waiting for the psf files...
+[2025-06-12 06:13:33]   waiting for the psf files...
+[2025-06-12 06:13:43]   waiting for the psf files...
+[2025-06-12 06:13:54]   waiting for the psf files...
+[2025-06-12 06:14:04]   waiting for the psf files...
+[2025-06-12 06:14:24] Merging topologies and coordinates files
+[2025-06-12 06:14:26]   waiting for the merged files...
+[2025-06-12 06:14:36] Looking for iteration 0
+[2025-06-12 06:14:36] Starting rigid-body docking: 1000 structures
+[2025-06-12 06:14:36] Initiating job submission...
+[2025-06-12 07:11:18]   stage 0: 1000 structures remaining, 1000 running, 0 completed, 1000 total
+[2025-06-12 07:15:19]   stage 0: 760 structures remaining, 760 running, 240 completed, 1000 total
+[2025-06-12 07:19:21]   stage 0: 660 structures remaining, 660 running, 340 completed, 1000 total
+[2025-06-12 07:23:22]   stage 0: 340 structures remaining, 340 running, 660 completed, 1000 total
+[2025-06-12 07:25:33] Looking for iteration 1
+[2025-06-12 07:25:33] Starting semi-flexible refinement: 200 structures
+[2025-06-12 07:25:33] Initiating job submission...
+[2025-06-12 07:52:14]   stage 1: 200 structures remaining, 200 running, 0 completed, 200 total
+[2025-06-12 07:56:14]   stage 1: 180 structures remaining, 180 running, 20 completed, 200 total
+[2025-06-12 08:16:15]   stage 1: 150 structures remaining, 150 running, 50 completed, 200 total
+[2025-06-12 08:20:16]   stage 1: 30 structures remaining, 30 running, 170 completed, 200 total
+[2025-06-12 08:22:26] Starting analysis scripts for /trinity/rascar/enmr/csb_webserver/data/runs/haddock24/userrun00503609/run1/structures/it1
+[2025-06-12 08:22:26]   calculating average structure and similarity matrices
+[2025-06-12 08:22:26]   waiting for the average structure...
+[2025-06-12 08:23:16]   running analysis scripts...
+[2025-06-12 08:23:21]     calculating pairwise rmsd matrix
+[2025-06-12 08:23:22] Starting final refinement: 200 structures
+[2025-06-12 08:23:22] Initiating job submission...
+[2025-06-12 08:48:03]   stage 2: 200 structures remaining, 200 running, 0 completed, 200 total
+[2025-06-12 08:52:03]   stage 2: 150 structures remaining, 150 running, 50 completed, 200 total
+[2025-06-12 08:54:03]   stage 2: 145 structures remaining, 140 running, 55 completed, 200 total
+[2025-06-12 08:56:03]   stage 2: 125 structures remaining, 105 running, 75 completed, 200 total
+[2025-06-12 09:04:03]   stage 2: 110 structures remaining, 110 running, 90 completed, 200 total
+[2025-06-12 09:08:04]   stage 2: 90 structures remaining, 90 running, 110 completed, 200 total
+[2025-06-12 09:28:04]   stage 2: 80 structures remaining, 80 running, 120 completed, 200 total
+[2025-06-12 09:32:04]   stage 2: 60 structures remaining, 60 running, 140 completed, 200 total
+[2025-06-12 09:36:04]   stage 2: 15 structures remaining, 15 running, 185 completed, 200 total
+[2025-06-12 09:40:04]   stage 2: 5 structures remaining, 5 running, 195 completed, 200 total
+[2025-06-12 09:42:14] Starting analysis scripts for /trinity/rascar/enmr/csb_webserver/data/runs/haddock24/userrun00503609/run1/structures/it1/water
+[2025-06-12 09:42:14]   calculating average structure and similarity matrices
+[2025-06-12 09:42:14]   waiting for the average structure...
+[2025-06-12 09:42:54]   running analysis scripts...
+[2025-06-12 09:42:59]     calculating pairwise rmsd matrix
+[2025-06-12 09:43:01]   waiting for the matrix file in it1/analysis...
+[2025-06-12 09:43:01] Matrix file in it1/analysis is found
+[2025-06-12 09:43:01] Running clustering for it1/
+[2025-06-12 09:43:01] Clustering in /trinity/rascar/enmr/csb_webserver/data/runs/haddock24/userrun00503609/run1/structures/it1/analysis DONE
+[2025-06-12 09:43:01] Check file /trinity/rascar/enmr/csb_webserver/data/runs/haddock24/userrun00503609/run1/structures/it1/analysis/cluster.out
+[2025-06-12 09:43:11]   waiting for the matrix file in water/analysis...
+[2025-06-12 09:46:21] Matrix file in water/analysis is found
+[2025-06-12 09:46:21] Running clustering for it1/water
+[2025-06-12 09:46:21] Running cluster in /trinity/rascar/enmr/csb_webserver/data/runs/haddock24/userrun00503609/run1/structures/it1/water/analysis
+[2025-06-12 09:46:21] Clustering in /trinity/rascar/enmr/csb_webserver/data/runs/haddock24/userrun00503609/run1/structures/it1/water/analysis DONE
+[2025-06-12 09:46:21] Check file /trinity/rascar/enmr/csb_webserver/data/runs/haddock24/userrun00503609/run1/structures/it1/water/analysis/cluster.out
+[2025-06-12 09:46:21] Cleaning up the run directory...
+[2025-06-12 09:46:24] Only files for structure #1 will be kept...
+[2025-06-12 09:46:24] 
+[2025-06-12 09:46:24] ##############################################################################
+[2025-06-12 09:46:24] Finishing HADDOCK
+[2025-06-12 09:46:24] Au revoir. Tot ziens. Bye bye.
+[2025-06-12 09:46:24] 
+##############################################################################
+#                                                                            #
+# Starting HADDOCK2.5                                                        #
+#                                                                            #
+#         N-components version of HADDOCK (current maximum is 20)            #
+#                                                                            #
+#   Copyright 2003-2024 Alexandre Bonvin, Utrecht University.                #
+#   Originally adapted from Aria 1.2 from Nilges and Linge, EMBL.            #
+#   All rights reserved.                                                     #
+#   This code is part of the HADDOCK software and governed by its            #
+#   license. Please see the LICENSE file that should have been included      #
+#   as part of this package.                                                 #
+#                                                                            #
+##############################################################################
+    
+[2025-06-12 09:46:24] Starting HADDOCK
+[2025-06-12 09:46:24] HADDOCK version: 2.5 - December 2024
+[2025-06-12 09:46:24] Parsing run.cns file
+[2025-06-12 09:46:24] Parsing run.param in /trinity/rascar/enmr/csb_webserver/data/runs/haddock24/userrun00503609/run1/data
+[2025-06-12 09:46:24] Reading parameters from the file /trinity/rascar/enmr/csb_webserver/data/runs/haddock24/userrun00503609/run1/data/run.param
+[2025-06-12 09:46:24]   setting some variables:
+[2025-06-12 09:46:24]     HADDOCK_DIR set to: /trinity/rascar/enmr/software/haddock2.5
+[2025-06-12 09:46:24]     N_COMP set to: 2
+[2025-06-12 09:46:24]     PDB_FILE1 set to: protein1.pdb
+[2025-06-12 09:46:24]     PROT_SEGID_1 set to: A
+[2025-06-12 09:46:24]     PDB_FILE2 set to: protein2.pdb
+[2025-06-12 09:46:24]     PROT_SEGID_2 set to: B
+[2025-06-12 09:46:24]     PROJECT_DIR set to: .
+[2025-06-12 09:46:24]     RUN_NUMBER set to: 1
+[2025-06-12 09:46:24]   HADDOCK_DIR /trinity/rascar/enmr/software/haddock2.5
+[2025-06-12 09:46:24]   N_COMP 2
+[2025-06-12 09:46:24]   PDB_FILE1 protein1.pdb
+[2025-06-12 09:46:24]   PROT_SEGID_1 A
+[2025-06-12 09:46:24]   PDB_FILE2 protein2.pdb
+[2025-06-12 09:46:24]   PROT_SEGID_2 B
+[2025-06-12 09:46:24]   PROJECT_DIR .
+[2025-06-12 09:46:24]   RUN_NUMBER 1
+[2025-06-12 09:46:24] Looking for existing files
+[2025-06-12 09:46:24] waterdock false
+[2025-06-12 09:46:34] Looking for iteration 0
+[2025-06-12 09:46:34] file.list exists => iteration 0 finished.
+[2025-06-12 09:46:34] Looking for iteration 1
+[2025-06-12 09:46:34] file.list exists => iteration 1 finished.
+[2025-06-12 09:46:34] CNS analysis files found in the it1/analysis directory.
+[2025-06-12 09:46:34] To rerun the analysis delete the file 'DONE' in that directory.
+[2025-06-12 09:46:34] File it1/water/file.list already exists => water refinement done.
+[2025-06-12 09:46:34] CNS analysis files found in the it1/water/analysis directory.
+[2025-06-12 09:46:34] To rerun the analysis delete the 'DONE' file in that directory.
+[2025-06-12 09:46:34] Cluster file in it1/analysis already exist.
+[2025-06-12 09:46:34] To rerun the clustering delete the 'CLUST_DONE' file in the analysis directory.
+[2025-06-12 09:46:44] Cluster file in it1/water/analysis already exist.
+[2025-06-12 09:46:44] To rerun the clustering delete the 'CLUST_DONE' file in the analysis directory.
+[2025-06-12 09:46:44] Cleaning up the run directory...
+[2025-06-12 09:46:44] Only files for structure #1 will be kept...
+[2025-06-12 09:46:44] 
+[2025-06-12 09:46:44] ##############################################################################
+[2025-06-12 09:46:44] Finishing HADDOCK
+[2025-06-12 09:46:44] Au revoir. Tot ziens. Bye bye.
+Only files for structure #1 will be kept...
++ BEGIN: Thu Jun 12 09:47:07 2025
++ Parsing 201 contact files
++ Calculating Matrix
++ Writing matrix to <stdout>
++ END: Thu Jun 12 09:47:07 2025 [  0.01 seconds elapsed]
+mv: No match.
+/trinity/rascar/enmr/csb_webserver/data/results/haddock24/9637017235/503609-PZ002_PET/structures/it1/water/CAPRI_analysis/../analysis//RMSD_Calc.sh: line 58: [: ==: unary operator expected
+/trinity/rascar/enmr/csb_webserver/data/results/haddock24/9637017235/503609-PZ002_PET/structures/it1/water/CAPRI_analysis/../analysis//RMSD_Calc.sh: line 192: [: missing `]'
+/trinity/rascar/enmr/csb_webserver/data/results/haddock24/9637017235/503609-PZ002_PET/structures/it1/water/CAPRI_analysis/../analysis//RMSD_Calc.sh: line 58: [: ==: unary operator expected
+/trinity/rascar/enmr/csb_webserver/data/results/haddock24/9637017235/503609-PZ002_PET/structures/it1/water/CAPRI_analysis/../analysis//RMSD_Calc.sh: line 192: [: missing `]'
+rm: No match.
+/usr/bin/ls: write error: Broken pipe
