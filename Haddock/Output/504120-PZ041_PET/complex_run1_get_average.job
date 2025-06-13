@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+cd ./
+export CURRIT=1
+export RUN=./
+export NEWIT=$RUN/structures/it1
+export PREVIT=$RUN/structures/it1
+export TEMPTRASH=$RUN
+protocols/cns1 < protocols/get_average.inp >& $NEWIT//analysis/get_average.out
+gzip $NEWIT//analysis/get_average.out
+rm -rf $NEWIT//analysis/complex.crd

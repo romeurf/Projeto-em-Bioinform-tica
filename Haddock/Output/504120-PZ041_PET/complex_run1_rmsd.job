@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+cd ./
+export CURRIT=1
+export RUN=./
+export NEWIT=$RUN/structures/it1
+export PREVIT=$RUN/structures/it1
+export TEMPTRASH=$RUN
+if [ `ls -1 $NEWIT/analysis/*fit_*.pdb | wc -l` -gt 1 ]
+then
+    protocols/cns1 < protocols/rmsd.inp >& $NEWIT/analysis/rmsd.out
+    gzip -f $NEWIT/analysis/rmsd.out
+    touch $NEWIT/analysis/ENE_DONE
+else
+     echo 'Cluster 1 -> 1' >$NEWIT/analysis/cluster.out
+     touch $NEWIT/analysis/CLUST_DONE
+     gzip -f $NEWIT/analysis/cluster.out
+     touch $NEWIT/analysis/MTX_DONE
+fi
